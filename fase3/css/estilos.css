@@ -1,9 +1,12 @@
 header{
-    background-color: aqua;
+    background-color: #06113C;
+    color: aliceblue;
     text-align: center;
+    padding: 10px;
+    font-size: 13pt;
 }
 nav{
-    background-color: black;
+    background-color: #DDDDDD;
 }
 section{
     background-color: antiquewhite;
@@ -45,15 +48,15 @@ ul, ol{
     float: left;
 }
 .menu li a{
-    background-color: black;
-    color: blanchedalmond;
+    background-color: #DDDDDD;
+    color:  #06113C;
     text-decoration: none;
     padding: 20px 80px;
     display: block;
 }
 
 .menu li a:hover{
-    background-color: chocolate;
+    background-color: #FF8C32;
 }
 .menu li ul{
     display: none;
