@@ -1,7 +1,7 @@
 header{
     background-color: #06113C;
     color: aliceblue;
-    text-align: center;
+    text-align:center;
     padding: 10px;
     font-size: 13pt;
 }
@@ -9,8 +9,10 @@ nav{
     background-color: #DDDDDD;
 }
 section{
-    background-color: antiquewhite;
+    background-color: #FFD36E;
     grid-column: 1/4;
+    font-size: 13pt;
+    text-align: justify;
 }
 article{
     background-color: aquamarine;
@@ -19,10 +21,13 @@ article{
 aside{
     background-color: azure;
     grid-column: 4/5;
+    
 }
 footer{
-    background-color: black;
-    padding: 10px;
+    background-color: #DDDDDD;
+    padding: 4px;
+    text-align: center;
+    font-size: 12pt
 }
 main{
     display: grid;
