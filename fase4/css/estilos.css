@@ -1,0 +1,81 @@
+header{
+    background-color: #06113C;
+    color: aliceblue;
+    text-align:center;
+    padding: 10px;
+    font-size: 13pt;
+}
+nav{
+    background-color: #DDDDDD;
+}
+section{
+    background-color: #FFD36E;
+    grid-column: 1/4;
+    font-size: 13pt;
+    text-align: justify;
+}
+article{
+    background-color: aquamarine;
+    
+}
+aside{
+    background-color: azure;
+    grid-column: 4/5;
+    
+}
+footer{
+    background-color: #DDDDDD;
+    padding: 4px;
+    text-align: center;
+    font-size: 12pt
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+ul, ol{
+    list-style: none;
+    display: inline-block;
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu>li{
+    float: left;
+}
+.menu li a{
+    background-color: #DDDDDD;
+    color:  #06113C;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: #FF8C32;
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover >ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: 140px;
+}
