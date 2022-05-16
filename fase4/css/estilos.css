@@ -79,3 +79,8 @@ ul, ol{
 .menu li ul li ul{
     right: 140px;
 }
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column;
+    }   
+}
